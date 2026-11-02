@@ -11,15 +11,15 @@ Pay yardstick: 165 PLN/h net ≈ 1 320 PLN/day ≈ 27 700 PLN/month (B2B).
 ## 2026-11-02 (first run)
 
 ### Strong
-- [Senior/Lead QA Automation Engineer in Java @ EPAM](https://justjoin.it/job-offer/epam-systems-senior-lead-qa-automation-engineer-in-java-wroclaw-testing) | Wrocław, hybrid | not listed | any | none | Wrocław + Java + lead level.
+- ★ ideal? [Senior/Lead QA Automation Engineer in Java @ EPAM](https://justjoin.it/job-offer/epam-systems-senior-lead-qa-automation-engineer-in-java-wroclaw-testing) | Wrocław, hybrid | not listed | any | none | Wrocław + Java + lead level.
 - [Quality Engineering Lead / QA Service Delivery Manager @ Upvanta](https://justjoin.it/job-offer/upvanta-sp-z-o-o--quality-engineering-lead-qa-service-delivery-manager-poznan-testing) | PL remote | 1 200–1 500 PLN/day (≈150–187/h) | B2B | none | Lead role, top of range above target.
 - [Test Lead with Oracle @ Link Group](https://justjoin.it/job-offer/link-group-test-lead-with-oracle-warszawa-testing) | PL remote | 150–180 PLN/h | B2B | none | Pay range reaches target.
-- [Lead QA Engineer @ Appfire](https://boards.greenhouse.io/appfire/jobs/4747035005) | Poland remote | not listed | ? | none | Fresh (posted 2026-11-01), product company.
+- ★ ideal [Lead QA Engineer @ Appfire](https://boards.greenhouse.io/appfire/jobs/4747035005) | Poland remote | not listed | ? | none | Fresh (posted 2026-11-01), product company.
 - [Quality Lead Engineer @ Euroclear](https://justjoin.it/job-offer/euroclear-quality-lead-engineer-warszawa-testing) | PL remote | not listed | UoP | none | Big financial company, lead title.
 - [Strategic QA Lead – Core Technology @ Nordea](https://justjoin.it/job-offer/nordea-strategic-quality-assurance-lead---core-technology-gdansk-testing) | hybrid Gdańsk +3 cities | not listed | UoP | maybe no Wrocław | Strategic/architect-ish lead role.
 - [QA Team Lead @ DevsData](https://justjoin.it/job-offer/devsdata-llc-qa-team-lead-warszawa-testing) | Warsaw, hybrid | 27 271–29 219 PLN/month (≈162–174/h) | B2B | Warsaw hybrid | Pay around target.
 - [Test Manager – SAP integration testing @ Link Group](https://justjoin.it/job-offer/link-group-test-manager---sap-integration-testing-warszawa-testing) | PL remote | 25–30k PLN/month (≈149–179/h) | B2B | SAP niche | Pay reaches target.
-- [Senior/Lead Test Automation Engineer – Java/Selenium/Playwright @ Upvanta](https://justjoin.it/job-offer/upvanta-sp-z-o-o--senior-lead-test-automation-engineer---java-selenium-playwright-warszawa-testing) | PL remote | not listed | B2B | none | Java stack, lead.
+- ★ ideal? [Senior/Lead Test Automation Engineer – Java/Selenium/Playwright @ Upvanta](https://justjoin.it/job-offer/upvanta-sp-z-o-o--senior-lead-test-automation-engineer---java-selenium-playwright-warszawa-testing) | PL remote | not listed | B2B | none | Java stack, lead.
 - [QA Lead – Manual & Automation @ Stellartech](https://stellartech.bamboohr.com/careers/282) | Europe remote | not listed | ? | none | EU remote lead.
 
 ### Flagged (kept, ranked lower)

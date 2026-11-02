@@ -19,3 +19,4 @@
 - Freshness rule applied: dropped NedGraphics and Sporty Group (posted in August). Shortlist = 15.
 - AGENTS.md: dedupe rule handles cross-site duplicates and software houses' generic titles (Maciej's point).
 - Feedback: Maciej wants plain URLs in chat (often on SSH).
+- Criteria tuned from j-labs Test Architekt (Playwright) posting: ideal-match section (Playwright/Cypress/Selenium, TS/C#/Java, hands-on architect, no people mgmt), j-labs excluded. Appfire marked ★; EPAM Java and Upvanta Java/Playwright marked ★? (check details).

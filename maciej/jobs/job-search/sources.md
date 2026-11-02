@@ -33,5 +33,6 @@ Checked = confirmed by Maciej or seen in research (2026-11-01). Candidate = from
 - remoteok.com (candidate): https://remoteok.com
 
 ## Search tips
+- Also search stack + level: "Playwright"/"Cypress"/"Selenium" with "architect"/"lead", and Polish titles "Architekt testów", "Lider testów".
 - Search the exact titles too: "Test Architect", "QA Architect", "Head of QA", "QA Lead", "Principal SDET".
 - Generic boards handle "remote" badly; use location filters plus "remote Europe".

@@ -23,6 +23,18 @@
 ## Must-haves
 - None.
 
+## Ideal match (rank highest), reference: j-labs "Test Architekt (Playwright)", 2026-11
+- Stack Maciej knows: Playwright, Cypress, Selenium; TypeScript/JavaScript, C#, Java. Any of these fits equally; Playwright + TS is not required.
+- Web/frontend apps (Angular a plus).
+- Work: test architecture & strategy, migrating/stabilising E2E suites, API mocking, deciding test levels, fixing flaky tests, metrics.
+- Role: hands-on architect who coaches teams; people management NOT required.
+- AI in testing / dev tooling: plus.
+- 100% remote, B2B ~175–190 PLN/h = a realistic market range for this role.
+- The closer an offer is to this, the higher it ranks. Mark it "★ ideal" in the shortlist.
+
+## Exclude
+- j-labs (current employer; internal transfer not possible).
+
 ## Avoid if possible (rank lower, flag, do not drop)
 - Gambling / betting / casino companies.
 - Python-heavy roles (Python is not Maciej's strength).
