@@ -16,7 +16,8 @@ Weekly, Mondays. Also on demand ("continue job search"). No scheduler job yet; r
 4. Add new matches to the top of `shortlist.md`, under a dated heading, using the format there.
 5. Write a dated entry in `log.md`: sources checked, counts, anything notable, broken sources.
 6. Update the row in `../../TOPICS.md` (last activity date).
-7. Report to Maciej in short ADHD style: count of new offers + top 3.
+7. Commit and push the KB (`agent-kb`). Maciej allowed pushing without asking for job search runs (2026-11-02).
+8. Report to Maciej in short ADHD style: count of new offers, then every new offer with its plain full URL on its own line (he often reads over SSH, where markdown links are not clickable).
 
 ## Files
 - `criteria.md`: what counts as a match.
