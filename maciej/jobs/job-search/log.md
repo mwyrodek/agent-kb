@@ -12,3 +12,10 @@
 - Dropped: on-site only outside Wrocław (RemoDevs Head of QA, ASTEK QA Lead, Locon), below pay (Link Group QA Leader 130–150/h, DCG 140–160/h, TQLO), language requirements (CoinsPaid RU, Expleo DE, Thermal ES), UK-only roles.
 - Result: 12 strong + 6 flagged in shortlist.md.
 - Later: Akamai Test Architect dropped as stale (Maciej's call). Next Monday: check Akamai Poland SDET roles (Principal/Senior).
+
+## 2026-11-02 (retro)
+- sources.md: added working search URLs and blocked sites.
+- criteria.md: pay conversions, fixed rates EUR 4.2 / USD 3.6 (Maciej), freshness rule (older than 60 days = ignore).
+- Freshness rule applied: dropped NedGraphics and Sporty Group (posted in August). Shortlist = 15.
+- AGENTS.md: dedupe rule handles cross-site duplicates and software houses' generic titles (Maciej's point).
+- Feedback: Maciej wants plain URLs in chat (often on SSH).

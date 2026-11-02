@@ -2,6 +2,15 @@
 
 Checked = confirmed by Maciej or seen in research (2026-11-01). Candidate = from general knowledge, verify on first run and drop if useless.
 
+## Working search URLs (verified 2026-11-02)
+- justjoin.it: https://justjoin.it/job-offers/all-locations/testing?keyword=lead  (also ?keyword=architect; check page 2)
+- remoterocketship: https://www.remoterocketship.com/jobs/qa-lead?locations=Europe
+- /jobs/test-architect on remoterocketship = 404, don't use.
+
+## Blocked for the agent's web fetch (use a browser via Chrome extension, or Maciej checks by hand)
+- nofluffjobs.com (refused)
+- theprotocol.it (403)
+
 ## Poland (tech boards)
 - justjoin.it (testing category, filter Wrocław / remote): https://justjoin.it/job-offers/all-locations/testing
 - nofluffjobs.com (testing): https://nofluffjobs.com/pl/testing

@@ -12,7 +12,11 @@ Weekly, Mondays. Also on demand ("continue job search"). No scheduler job yet; r
 ## How to run
 1. Read `criteria.md`, `sources.md`, and the latest entries in `log.md`.
 2. Search each source in `sources.md` for the roles in `criteria.md`.
-3. Skip offers already in `shortlist.md` (match by link or company+title).
+3. Dedupe against `shortlist.md`, including its "Dropped" section:
+   - Same offer = same company + same title + same pay range and stack (city may differ).
+   - Found on another site → add that link to the existing entry ("also: <url>"); don't create a new entry.
+   - Software house / agency with the same generic title but a different client, pay or stack → treat it as a different offer and add it.
+   - Unsure → add it with the flag "dup?".
 4. Add new matches to the top of `shortlist.md`, under a dated heading, using the format there.
 5. Write a dated entry in `log.md`: sources checked, counts, anything notable, broken sources.
 6. Update the row in `../../TOPICS.md` (last activity date).
