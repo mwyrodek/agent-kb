@@ -55,7 +55,7 @@ Someone can use the Mac at the keyboard (GUI). At the same time, remote Moshi/SS
 | Network | Tailscale for reachability |
 | macOS accounts | **One** account; person/desk identity in **our** setup |
 | Concurrent use | Background agent sessions while someone uses the GUI — intended |
-| Durable runtime | **Herdr** |
+| Durable runtime | **Herdr terminal (TUI, `herdr` 0.9.5)** — not the Herdr desktop app. Verified 2026-11-02: Moshi Chat View sees agents in the TUI server only; panes in the app's server (`herdr-core` / `hc`) are invisible to Moshi. PC access: `ssh -t agentseat@100.86.191.33 "cd ~/seat && herdr"`. The Herdr app is installed on the PC but unused for the seat. |
 | Phone | **Moshi** (+ Chat View) |
 | Agent rollout | **1) Claude Code** → **2) OpenAI/Codex** → **3) Cursor CLI** → **4) local Mac FM** |
 | Wife later | Moshi + same seat; **v1 = Claude Code only** (no picker). **Later = Proposal A** facade-per-chat router (Front 9) |
@@ -138,6 +138,8 @@ Course-aligned idea: harness-agnostic skills (git / later npx skills / Skills-ov
 **Wife path (phased)**  
 1. **Start (when Front 1 opens):** **Claude Code only** via Moshi/Herdr — no provider choice. Multiple chats per topic are fine (context limits).  
 2. **Later (Front 9 / Proposal A):** facade-per-chat router — still no provider menu; seat may route Claude / OpenAI / Cursor / FM underneath. Many chats still allowed; A ≠ one forever thread.
+
+**Adding any agent:** run `~/seat/skills/link-skills.sh` so the agent sees our skills (each agent reads skills from its own folder; the repo stays the only copy). Verify the agent's skills path first, then add it to `TARGETS` in the script.
 
 **Pi** is **not** the near-term seat agent. Optional later for multiprovider experiments only. Mentions of Pi elsewhere in this brief are billing warnings or “later / optional,” not the setup target.
 
