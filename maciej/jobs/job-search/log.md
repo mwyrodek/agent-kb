@@ -11,3 +11,4 @@
 - Not checked yet: Indeed, LinkedIn, bulldogjob, solid.jobs, pracuj.pl, EU boards (Working Nomads, NoDesk, euremotejobs, Ministry of Testing, Himalayas, WWR, Remotive, remoteok).
 - Dropped: on-site only outside Wrocław (RemoDevs Head of QA, ASTEK QA Lead, Locon), below pay (Link Group QA Leader 130–150/h, DCG 140–160/h, TQLO), language requirements (CoinsPaid RU, Expleo DE, Thermal ES), UK-only roles.
 - Result: 12 strong + 6 flagged in shortlist.md.
+- Later: Akamai Test Architect dropped as stale (Maciej's call). Next Monday: check Akamai Poland SDET roles (Principal/Senior).
