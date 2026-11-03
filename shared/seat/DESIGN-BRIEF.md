@@ -1,7 +1,7 @@
 # MacAgent design brief
 
 **Status:** idea / design only — no implementation committed.  
-**Updated:** 2026-11-03 (Herdr/Moshi link clicks open Safari on the seat; chat URLs as code fences)  
+**Updated:** 2026-11-03 (Front 16 security hardening on the task list; scheduler + job-search live)  
 **Seat:** spare Mac mini (always on for the experiment)  
 **Origin:** shaped while studying MEGA.dev S01 harness / remote / skills ideas; adapted for personal use (not a course Challenge deliverable).
 
@@ -282,6 +282,7 @@ We will refine skills and KB layout as real needs appear. Two things to establis
 | 13 | Skills to adopt from Matt Pocock (MIT, `github.com/mattpocock/skills`) | **Now:** `grill-me` + `grilling` (copy with credit into `skills/shared/`). **Later:** `handoff` (summarise a session so a fresh agent continues) and `writing-for-agents` (style guide for writing skills/AGENTS.md). Matt's `retro` is code-specific, so we write our own non-code retro (see §12B). |
 | 14 | Glossary (parked) | A shared glossary of our own terms (seat, desk, topic, route, KB, skill…) with "avoid" synonyms, like Matt's `GLOSSARY.md`. Add when terms start to clash. Likely lives in `kb/shared/`. |
 | 15 | **Ambient research agent (MEGA S02E02)** | Background knowledge-curation agent: no own UI; Channel-only human contact; loop observe→reflect→act→reschedule; primitives Event/Schedule/Document/Skill/Journal/Channel; trusted-source search/fetch; append-only journal; agent owns wake-ups. Full brief: [`briefs/ambient-research-agent.md`](../briefs/ambient-research-agent.md). Depends on Front 8 + §9b; subsumes Front 12 shape. Not day one. |
+| 16 | **Security hardening (seat)** | After scheduler + unattended Claude: tighten or document risks — `bypassPermissions` / LaunchAgents, GitHub fine-grained token scope + expiry, SSH keys & Tailscale exposure, FileVault + no auto-login tradeoffs, no secrets in KB/chat, drop unused software (Pi, Herdr app). Not day-one blocking; do before sharing the seat with Anna. |
 
 **Multiple topics, separate contexts (requirement):** the seat serves many unrelated uses. Each topic gets its own folder in the KB with its own context file, and the agent is started from that folder (one Herdr workspace per topic) so topics do not bleed into each other.
 | 11 | **REMINDER: set up Herdr skill + Moshi skill** | Install the Herdr skill for the seat agent (`herdr --skill` / `npx skills add herdrdev/herdr --skill herdr -g`) and the Moshi Skill (getmoshi.app/docs, "Moshi Skill"), so Claude Code can drive Herdr and Moshi itself. Ask the user before writing to config locations. Do after Moshi + `moshi-hook` basics work. |
