@@ -1,7 +1,7 @@
 # MacAgent design brief
 
 **Status:** idea / design only — no implementation committed.  
-**Updated:** 2026-11-01 (Herdr + Claude Code first; wife no-provider-choice front)  
+**Updated:** 2026-11-03 (Herdr/Moshi link clicks open Safari on the seat; chat URLs as code fences)  
 **Seat:** spare Mac mini (always on for the experiment)  
 **Origin:** shaped while studying MEGA.dev S01 harness / remote / skills ideas; adapted for personal use (not a course Challenge deliverable).
 
@@ -150,7 +150,8 @@ Course-aligned idea: harness-agnostic skills (git / later npx skills / Skills-ov
 - Moshi connects to the mini over Tailscale/SSH (local-first; agents stay on the seat).  
 - **Chat View** presents the live agent as phone chat (agent in **Herdr** pane; `moshi-hook` on host). Near-term: Claude Code.  
 - Same phone stack for you (day one) and wife (later, with Front 9 routing).  
-- Chat View may need Pro / trial limits — note at implement time.
+- Chat View may need Pro / trial limits — note at implement time.  
+- **Link clicks:** tapping a URL in Herdr / Moshi Chat View opens it in **Safari on the seat Mac**, not on the phone/PC. Seat rule (`~/seat/AGENTS.md`): no markdown links in chat; put URLs in code fences for copy-paste. No `moshi-hook` setting to change this (2026-11-02).
 
 ---
 
@@ -277,9 +278,10 @@ We will refine skills and KB layout as real needs appear. Two things to establis
 | 9 | **Seamless provider routing (Proposal A)** | **Later.** Target: facade-per-chat (not one forever chat); she never picks providers. **Until then:** wife = Claude Code only. Spike A after multi-agent farm exists (Codex etc.) and before she needs non-Claude capacity daily. |
 | 10 | Agent farm expansion | After Claude Code: OpenAI/Codex → Cursor CLI → local FM |
 | 11 | **Job search (first real use, Maciej)** | Find **Test Architect / QA Lead** roles: **remote in Europe** or **hybrid in Poland**. Own topic context in KB (criteria, sources, shortlist, log). Candidate for the first scheduled job. |
-| 12 | **Dev + AI news digest with feedback loop (future, not now)** | Daily/regular list of interesting news and concepts from the developer and AI world. Maciej marks each item interesting or not; the next day's list is curated from that feedback, so it improves over time. Needs: feedback log in KB, scoring/criteria that evolve, scheduler socket (§9b). Extends the Monday digest idea. |
+| 12 | **Dev + AI news digest with feedback loop (future, not now)** | Daily/regular list of interesting news and concepts from the developer and AI world. Maciej marks each item interesting or not; the next day's list is curated from that feedback, so it improves over time. Needs: feedback log in KB, scoring/criteria that evolve, scheduler socket (§9b). Extends the Monday digest idea. Fuller ambient shape: Front 15. |
 | 13 | Skills to adopt from Matt Pocock (MIT, `github.com/mattpocock/skills`) | **Now:** `grill-me` + `grilling` (copy with credit into `skills/shared/`). **Later:** `handoff` (summarise a session so a fresh agent continues) and `writing-for-agents` (style guide for writing skills/AGENTS.md). Matt's `retro` is code-specific, so we write our own non-code retro (see §12B). |
 | 14 | Glossary (parked) | A shared glossary of our own terms (seat, desk, topic, route, KB, skill…) with "avoid" synonyms, like Matt's `GLOSSARY.md`. Add when terms start to clash. Likely lives in `kb/shared/`. |
+| 15 | **Ambient research agent (MEGA S02E02)** | Background knowledge-curation agent: no own UI; Channel-only human contact; loop observe→reflect→act→reschedule; primitives Event/Schedule/Document/Skill/Journal/Channel; trusted-source search/fetch; append-only journal; agent owns wake-ups. Full brief: [`briefs/ambient-research-agent.md`](../briefs/ambient-research-agent.md). Depends on Front 8 + §9b; subsumes Front 12 shape. Not day one. |
 
 **Multiple topics, separate contexts (requirement):** the seat serves many unrelated uses. Each topic gets its own folder in the KB with its own context file, and the agent is started from that folder (one Herdr workspace per topic) so topics do not bleed into each other.
 | 11 | **REMINDER: set up Herdr skill + Moshi skill** | Install the Herdr skill for the seat agent (`herdr --skill` / `npx skills add herdrdev/herdr --skill herdr -g`) and the Moshi Skill (getmoshi.app/docs, "Moshi Skill"), so Claude Code can drive Herdr and Moshi itself. Ask the user before writing to config locations. Do after Moshi + `moshi-hook` basics work. |
