@@ -20,3 +20,12 @@
 - AGENTS.md: dedupe rule handles cross-site duplicates and software houses' generic titles (Maciej's point).
 - Feedback: Maciej wants plain URLs in chat (often on SSH).
 - Criteria tuned from j-labs Test Architekt (Playwright) posting: ideal-match section (Playwright/Cypress/Selenium, TS/C#/Java, hands-on architect, no people mgmt), j-labs excluded. Appfire marked ★; EPAM Java and Upvanta Java/Playwright marked ★? (check details).
+
+## 2026-11-03 (scheduled run)
+- justjoin.it: "architect" (34, saw 16; nothing new), "lead" (141, saw p1 50 + p2). New: Connectis QA Lead (z AI) Playwright/TS, P&G Senior AI Engineer for QA, cloudatus SAP Lead QA Manager, EPAM Python agentic testing lead, Walter Kidde QA Team Lead, CodeTalent QA Lead.
+- remoterocketship qa-lead Europe: 14 offers, nothing new (Appfire, Stellartech already listed; rest UK-only or older than 60 days).
+- bulldogjob (lead tester filter): 0 results. solid.jobs: page loads by JS, 0 offers seen; needs a browser.
+- Web searches (Test/QA Architect Poland Playwright; Akamai SDET; EU remote QA Lead/Head of QA): hits were expired (dmTECH, RELQ, Akamai Principal SDET, emagine, Intellias, Xebia, Blau Direkt) or old (Smartcat).
+- Akamai follow-up: Principal SDET justjoin page gone (404). Senior II SDET / SDET II Kraków seen on pracuj.pl (not lead level), not added.
+- Still not checked: nofluffjobs, theprotocol (blocked), LinkedIn, Indeed, pracuj.pl, most EU boards.
+- Result: 1 strong + 5 flagged added; 12 dropped (see shortlist Dropped).

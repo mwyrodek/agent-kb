@@ -4,4 +4,4 @@ Index of topics for this desk. Source of truth for WHICH topics exist. Everythin
 
 | topic | path | status | last activity | schedule |
 |-------|------|--------|---------------|----------|
-| job search | maciej/jobs/job-search/ | active | 2026-11-02 | weekly, Mondays |
+| job search | maciej/jobs/job-search/ | active | 2026-11-03 | weekly, Mondays |
