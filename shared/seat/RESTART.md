@@ -56,7 +56,26 @@ launchctl kickstart -k gui/$(id -u)/com.agentseat.scheduler-smoke
 cat ~/seat/scheduler/smoke-last-run.txt
 ```
 
-Expect a fresh UTC timestamp and `ok`. Job is armed every 86400s (`StartInterval`); Monday digest agent run is **not** wired yet.
+Expect a fresh UTC timestamp and `ok`. Job is armed every 86400s (`StartInterval`).
+
+### Job search (Mondays 08:00 local) — 2026-11-03
+
+| Piece | Path |
+|-------|------|
+| Script | `~/seat/scheduler/job-search.sh` |
+| Plist | `~/Library/LaunchAgents/com.agentseat.job-search.plist` |
+| Logs | `~/seat/scheduler/logs/job-search-*.log`, `job-search-last-run.txt` |
+| Topic | `~/seat/kb/maciej/jobs/job-search/` |
+| Runner | Claude Code `-p` on **Pro OAuth** (`bypassPermissions`; not API key / not `--bare`) |
+
+```bash
+launchctl bootout gui/$(id -u)/com.agentseat.job-search 2>/dev/null || true
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.agentseat.job-search.plist
+# optional force run now (uses Pro quota):
+launchctl kickstart -k gui/$(id -u)/com.agentseat.job-search
+```
+
+Monday news digest still not wired.
 
 ## Later: `restore.sh`
 

@@ -7,7 +7,9 @@ Never apply to any job, never fill application forms, never send CVs or messages
 Find QA Architect / Test Architect / QA Lead (or similar senior QA) roles that match `criteria.md`, and keep a clean shortlist Maciej can act on.
 
 ## Schedule
-Weekly, Mondays. Also on demand ("continue job search"). No scheduler job yet; run manually.
+Weekly, Mondays **08:00 local** via LaunchAgent `com.agentseat.job-search` → `~/seat/scheduler/job-search.sh` (Claude Code `-p`, Pro plan, `bypassPermissions`). Also on demand ("continue job search").
+Force one run: `launchctl kickstart -k gui/$(id -u)/com.agentseat.job-search`
+Logs: `~/seat/scheduler/logs/job-search-*.log` and `job-search-last-run.txt`.
 
 ## How to run
 1. Read `criteria.md`, `sources.md`, and the latest entries in `log.md`.
