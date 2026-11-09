@@ -37,3 +37,6 @@
 - Web searches (Test/QA Architect Playwright PL/EU; Head of QA / QA Lead EU remote): hits were closed or stale (Sigma, 7N, Jit Team, Software Mind, Newfire, RELQ).
 - Still not checked: nofluffjobs, theprotocol (blocked), LinkedIn, Indeed, pracuj.pl, solid.jobs (JS), most EU boards.
 - Result: 1 strong + 2 flagged added; 8 dropped.
+
+## 2026-11-09 (note)
+- Claude in Chrome extension (to read nofluffjobs, theprotocol, solid.jobs, LinkedIn): Maciej postponed. Revisit week of 2026-11-16. Open questions: install on the seat Mac, and does it work in the unattended Monday run.
