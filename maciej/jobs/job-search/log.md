@@ -29,3 +29,11 @@
 - Akamai follow-up: Principal SDET justjoin page gone (404). Senior II SDET / SDET II Kraków seen on pracuj.pl (not lead level), not added.
 - Still not checked: nofluffjobs, theprotocol (blocked), LinkedIn, Indeed, pracuj.pl, most EU boards.
 - Result: 1 strong + 5 flagged added; 12 dropped (see shortlist Dropped).
+
+## 2026-11-09 (scheduled run)
+- justjoin.it "architect" (38 offers, saw 20; page 2 = 404): new SCALO Test Automation Architect posting (lower pay). "lead" (135 offers, saw p1 50 + p2 20): new DevsData QA Manager, EPAM End-to-End Test Manager, Experis Test Lead (low pay).
+- remoterocketship qa-lead Europe: 13 offers, nothing new (Appfire/Stellartech listed; CoinsPaid QA Principal = dropped before; rest UK-only or older than 60 days).
+- himalayas.app/jobs/qa-lead: only UK-only Trust Payments. Working Nomads QA Europe page: no listings seen by the fetch tool (JS page).
+- Web searches (Test/QA Architect Playwright PL/EU; Head of QA / QA Lead EU remote): hits were closed or stale (Sigma, 7N, Jit Team, Software Mind, Newfire, RELQ).
+- Still not checked: nofluffjobs, theprotocol (blocked), LinkedIn, Indeed, pracuj.pl, solid.jobs (JS), most EU boards.
+- Result: 1 strong + 2 flagged added; 8 dropped.

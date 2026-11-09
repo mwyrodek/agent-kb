@@ -8,6 +8,15 @@ Status markers Maciej can add: `[applied]`, `[rejected]`, `[not interested]`.
 
 Pay yardstick: 165 PLN/h net ≈ 1 320 PLN/day ≈ 27 700 PLN/month (B2B).
 
+## 2026-11-09
+
+### Strong
+- [QA Manager @ DevsData](https://justjoin.it/job-offer/devsdata-llc-qa-manager-warszawa-testing) | Warsaw hybrid (office days not stated) | 27 371–29 326 PLN/month (≈163–175/h) | B2B | Warsaw hybrid; people mgmt | Pay at target. European test strategy for a retail store platform (payments, checkout, edge), leads Test Analysts; Selenium/Playwright/Cypress in CI. Open till 2026-12-01. Different role from the DevsData QA Team Lead below.
+
+### Flagged (kept, ranked lower)
+- [Test Automation Architect @ SCALO (new posting)](https://justjoin.it/job-offer/scalo-test-automation-architect-warszawa-testing-054f8a1c) | PL remote | 20 800–25 600 PLN/month (≈124–152/h) | B2B | low pay; dup? | Same title as the 2026-11-02 SCALO entry but a lower range, so maybe a different client.
+- [End-to-End Test Manager @ EPAM](https://justjoin.it/job-offer/epam-systems-end-to-end-test-manager-wroclaw-testing) | PL remote (Wrocław +6) | not listed | UoP / B2B | management, not hands-on; Coupa procurement niche | Test strategy, SIT/UAT, vendor coordination. Posted ~2026-11-09.
+
 ## 2026-11-03
 
 ### Strong
@@ -42,6 +51,8 @@ Pay yardstick: 165 PLN/h net ≈ 1 320 PLN/day ≈ 27 700 PLN/month (B2B).
 - [Automation QA Lead – Betting @ opinov8](https://jobs.opinov8.com/jobs/8381011-automation-qa-lead-betting) | Europe remote | not listed | ? | gambling | Betting client.
 
 ## Dropped (do not re-add)
+- 2026-11-09, low pay: Experis Test Lead (Warsaw hybrid, 140–160/h), Optiveum Senior Test Data Manager (160/h, not a QA lead role), DCG Senior Test Manager / QA Lead (140–160/h, seen again).
+- 2026-11-09, expired / gone / stale: Sigma Software Principal AI-Augmented Test Automation Engineer (closed), 7N QA Automation Lead pharma (justjoin 404), Jit Team Automation Test Lead (404), Software Mind QA Lead JS/TS + Playwright (from ~2026-01, archived), Newfire Global Automation QA Architect (no longer on their careers page).
 - 2026-11-03, low pay: H2B QA Lead – Banking (17–23k/mo), cloudatus Lead QA Manager Senior non-SAP (15–24k/mo), Fabrity Test Coordination Lead (18–22k/mo), Upvanta Performance Testing Lead (1 000–1 150/day), Consid Test Manager (140–160/h), emagine Senior Test Data Management (150–165/h, not a QA lead role).
 - 2026-11-03, on-site outside Wrocław: Nexio Test Coordinator / Test Automation Lead (Warsaw office).
 - 2026-11-03, expired / gone: dmTECH QA Architect (Wrocław/remote, needs German B2), RELQ Test Architect Playwright (remotive, 410), Akamai Principal SDET (justjoin 404), emagine Test Automation Lead Playwright (Luxembourg, 404), Intellias Senior Automation QA w/ leadership (404), Xebia QA Architect, Blau Direkt QA Lead (404).
